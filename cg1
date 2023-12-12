@@ -158,7 +158,7 @@ closegraph(); //closing graph
 getch();
 return 0;
 }
-//Output:
+/*Output:
 Number of Vertices : 4
 Cordinates 1st :
 x1= 200
@@ -172,3 +172,4 @@ y3= 200
 Cordinates 4st :
 x4= 400
 y4= 400
+*/
