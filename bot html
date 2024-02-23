@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARISE</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link to Swiper's CSS -->
+    <link rel="stylesheet" 
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo"><i class='bx bx-bot'></i>ARISE</a>
+        <!-- Menu Icon -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- nav List -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#arise">Arise</a></li>
+        </ul>
+        <!-- Login -->
+        <div class="login-btn">
+            <!-- <a href="login3.html">Login</a>> -->
+            <a href="login.html">
+                <button class="login-Btn" >Login</button>
+            </a>
+            
+        </div> 
+    </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="container">
+                <div class="home-text">
+                    <span>arise</span>
+                    <h1>The Ultimate <br> Career Guidance <br>Chat Bot</h1>
+                    <a href="#" class="btn">Talk Now<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="bot2.jpg" alt="">
+            </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Link to JS -->
+    <script src="index.js"></script>
+</body>
+</html>
+
